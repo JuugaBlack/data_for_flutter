@@ -1,73 +1,60 @@
 {
-  "header": {
-    "income": 10000,
-    "expense": 3000,
-    "balance": 7000
+  "weeks": [
+    "05.2022",
+    "06.2022",
+    "07.2022",
+    "08.2022",
+    "09.2022",
+    "10.2022",
+    "11.2022"
+  ],
+  "statistics": {
+    "totalIncome": "50000.00",
+    "averageIncomePerDay": "3500.00",
+    "totalExpenditure": "30000.00",
+    "balance": "20000.00"
   },
-  "records": [
+  "pieChartData": [
     {
-      "date": "2023-06-01",
-      "income": 5000,
-      "expense": 1000,
-      "details": [
-        {
-          "type": "工资",
-          "items": "6月工资",
-          "amount": 3000
-        },
-        {
-          "type": "奖金",
-          "items": "年终奖",
-          "amount": 1000
-        },
-        {
-          "type": "投资",
-          "items": "股票收益",
-          "amount": 500
-        },
-        {
-          "type": "利息",
-          "items": "银行利息",
-          "amount": 300
-        },
-        {
-          "type": "兼职",
-          "items": "自由职业",
-          "amount": 200
-        }
-      ]
+      "color": "#0293ee",
+      "value": 45,
+      "title": "45%",
+      "icon": "assets/svgs/income-icon1.svg"
     },
     {
-      "date": "2023-06-02",
-      "income": 5000,
-      "expense": 2000,
-      "details": [
-        {
-          "type": "工资",
-          "items": "6月工资",
-          "amount": 3000
-        },
-        {
-          "type": "奖金",
-          "items": "季度奖",
-          "amount": 1000
-        },
-        {
-          "type": "投资",
-          "items": "基金收益",
-          "amount": 500
-        },
-        {
-          "type": "利息",
-          "items": "银行利息",
-          "amount": 300
-        },
-        {
-          "type": "兼职",
-          "items": "代驾",
-          "amount": 200
-        }
-      ]
+      "color": "#f8b250",
+      "value": 25,
+      "title": "25%",
+      "icon": "assets/svgs/income-icon2.svg"
+    },
+    {
+      "color": "#845bef",
+      "value": 20,
+      "title": "20%",
+      "icon": "assets/svgs/income-icon3.svg"
+    },
+    {
+      "color": "#13d38e",
+      "value": 10,
+      "title": "10%",
+      "icon": "assets/svgs/income-icon4.svg"
+    }
+  ],
+  "incomeSources": [
+    {
+      "icon": "home",
+      "description": "Salary",
+      "amount": "+20000.00"
+    },
+    {
+      "icon": "home",
+      "description": "Freelance Work",
+      "amount": "+15000.00"
+    },
+    {
+      "icon": "home",
+      "description": "Investments",
+      "amount": "+10000.00"
     }
   ]
 }
